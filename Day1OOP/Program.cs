@@ -23,6 +23,29 @@
             ////  P01.PrintPoint();
             //Console.WriteLine(P01.ToString()); 
             #endregion
+
+            ////OOP
+            #region Encapsulation
+            ////Encapsulation
+            //Employee Emp01 = new Employee(1,"Mohamed",15000);
+            //Emp01.id = 1;
+            //Emp01.name = "mohamed";
+            //Emp01.salary = 14101;
+            //Console.WriteLine(Emp01.id);
+            //Console.WriteLine(Emp01.name);
+            //Console.WriteLine(Emp01.salary);
+
+            //Emp01.SetId(1);
+            //Emp01.SetName("mohamed");
+            //Emp01.SetSalary(-15000);
+
+            //Console.WriteLine(Emp01.GetId());
+            //Console.WriteLine(Emp01.GetName());
+            //Console.WriteLine(Emp01.GetSalary());
+
+            //Console.WriteLine(Emp01); 
+            #endregion
+
         }
     }
 }
