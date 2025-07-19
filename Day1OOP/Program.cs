@@ -59,6 +59,26 @@
             //Console.WriteLine(E01.Address); 
             #endregion
 
+
+            #region Indexer
+            // Indexer
+
+            //PhoneBook phbook01 = new PhoneBook(3);
+
+            //phbook01.AddPerson("Mohamed", 11111, 0);
+            //phbook01.AddPerson("Ahmed", 22222, 1);
+            //phbook01.AddPerson("Ali", 33333, 2);
+
+            //// Console.WriteLine(phbook01.GetNumber("Mohamed")); 
+            ////phbook01.UpdateNumber("Mohamed",2225541);
+            //// Console.WriteLine(phbook01.getName(22222));
+
+            //Console.WriteLine(phbook01["Mohamed"]);
+            //phbook01["Mohamed"] = 1254512;
+            //Console.WriteLine(phbook01["Mohamed"]); 
+            #endregion
+
+
         }
     }
 }
