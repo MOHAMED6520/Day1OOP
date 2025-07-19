@@ -15,17 +15,17 @@
             //P01=new Point();
             ////Console.WriteLine(P01.X);
             ////Console.WriteLine(P01.Y);
-            //P01 = new Point(14, 15);
+            //P01 = new Point(14 , 15);   
             ////Console.WriteLine(P01.X);
             ////Console.WriteLine(P01.Y);
 
-            //// Console.WriteLine(P01);
-            ////  P01.PrintPoint();
-            //Console.WriteLine(P01.ToString()); 
+            ////  Console.WriteLine(P01); 
+            ////  P01.PrintPoint();      
+            //    Console.WriteLine(P01.ToString()); 
             #endregion
 
-            ////OOP
             #region Encapsulation
+            ////OOP                  
             ////Encapsulation
             //Employee Emp01 = new Employee(1,"Mohamed",15000);
             //Emp01.id = 1;
@@ -44,6 +44,19 @@
             //Console.WriteLine(Emp01.GetSalary());
 
             //Console.WriteLine(Emp01); 
+            #endregion
+
+            #region prop
+            //Employee E01 = new Employee();
+            //E01.Id = 12;          
+            //E01.Name = "Mohamed";
+            //E01.Salary = 12000;
+            //E01.Address = "Cairo";
+
+            //Console.WriteLine(E01.Id);
+            //Console.WriteLine(E01.Name);
+            //Console.WriteLine(E01.Salary);
+            //Console.WriteLine(E01.Address); 
             #endregion
 
         }
