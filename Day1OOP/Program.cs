@@ -1,4 +1,7 @@
-﻿namespace Day1OOP
+﻿using System.Globalization;
+using System.Security.Cryptography;
+
+namespace Day1OOP
 {
     internal class Program
     {
@@ -56,6 +59,32 @@
             //Console.WriteLine($"The Name Of The Oldest Person : {P01[MaxIndex].Name}");
             //Console.WriteLine($"The Age Of The Oldest Person : {P01[MaxIndex].Age}"); 
             #endregion
+     
+            #region Q03
+            //Employee[] EmpArr = new Employee[3];
+
+            //EmpArr[0] = new Employee();
+            //EmpArr[0].Id = 1;
+            //EmpArr[0].Name = "Mohamed";
+            //EmpArr[0].Salary = 12000;
+            //EmpArr[0].Gender = 'm';
+            //EmpArr[0].HiringDate.Day = 5;
+            //EmpArr[0].HiringDate.Month = 1;
+            //EmpArr[0].HiringDate.Year = 2025;
+            //EmpArr[0].SecurityLevel = SecurityPrivileges.DBA;
+
+            //EmpArr[1] = new Employee();
+            //EmpArr[1].SecurityLevel = SecurityPrivileges.guest;
+            //EmpArr[2] = new Employee();
+            //EmpArr[2].SecurityLevel = SecurityPrivileges.Developer;
+            //Console.WriteLine();
+            //Console.WriteLine(EmpArr[0].ToString()); 
+            #endregion
+
+
+
+
+
 
 
         }
