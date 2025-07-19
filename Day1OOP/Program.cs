@@ -77,15 +77,16 @@
             //Console.WriteLine(phbook01["Mohamed"]); 
             #endregion
 
-            //Class
             #region Class
+            //Class
 
-            Car C01;
+            //Car C01;
 
-            C01 = new Car(1, 300, "XYZ");
+            //C01 = new Car(1, 300, "XYZ");
 
-            Console.WriteLine(C01); 
+            //Console.WriteLine(C01); 
             #endregion
+
 
         }
     }
