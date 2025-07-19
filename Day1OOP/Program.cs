@@ -59,7 +59,6 @@
             //Console.WriteLine(E01.Address); 
             #endregion
 
-
             #region Indexer
             // Indexer
 
@@ -78,6 +77,15 @@
             //Console.WriteLine(phbook01["Mohamed"]); 
             #endregion
 
+            //Class
+            #region Class
+
+            Car C01;
+
+            C01 = new Car(1, 300, "XYZ");
+
+            Console.WriteLine(C01); 
+            #endregion
 
         }
     }
